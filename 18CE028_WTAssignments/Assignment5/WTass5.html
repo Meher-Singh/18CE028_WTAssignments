@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>18CE028 Meher Gulabsinghani</title>
+	<style>
+		body{
+			
+			background: url("bg.jpg") no-repeat center center fixed;
+		      -webkit-background-size:cover;
+		      background-size: cover;
+		}
+		form{
+			margin-top: 60px;
+			margin-left: 250px;
+			margin-right:250px; 
+		}
+		h1{
+			font-family: serif;
+       		font-style: italic;
+       		text-align: center;
+        	font-size: 45px;
+        	margin-top: 10px;
+        	color: #566d7e;
+		}
+		 label{
+			
+			font-size: 17px;
+
+		} 
+		legend{
+			border-color: #659ec7;
+			font-size: 20px;
+			margin: auto;
+		}
+		button{
+			background-color: #737ca1;
+			border:none;
+			color: white;
+			padding: 13px 30px;
+			text-align: center;
+			display: inline-block;
+			font-size: 17px;
+
+		}	
+		
+
+	</style>
+</head>
+<body>
+	<h1 style="margin-top: px;">National Workshop on Web Technology</h1>
+	<form action="connect.php" method="post">
+		<fieldset>
+			<legend><center>Registeration Form</center></legend>
+			
+				<dfn>Details:</dfn>&emsp;&emsp;<br>
+				<table>
+					<col width="550">
+					<col width="500">
+					<tr>
+						<td>
+							Abstract: &emsp; HTML 4.0 and HTML 5.0<br>
+					&emsp;&emsp;&emsp;&emsp;&emsp; CSS 2.0 and CSS 3.0<br>
+					&emsp;&emsp;&emsp;&emsp;&emsp; JavaScript<br>
+					&emsp;&emsp;&emsp;&emsp;&emsp; Basics of PHP
+						</td>
+						<td>
+							Date:&emsp;&emsp;&emsp;15 <sup>th</sup> - 16 <sup>th</sup> March 2020<br> 
+						Timing:&emsp;&emsp;9:10 am  - 3:10 pm<br>
+					Venue:&emsp; &emsp; Chandubahi S. Patel Institute of Science and Technology <br>&emsp;&emsp;&emsp;&emsp;&emsp; Changa, Gujarat, India
+						</td>
+					</tr>
+				</table>
+				<hr><br>
+				<center>
+					<label>Name of Participant:&emsp;&emsp; </label>
+					<input type="text" name="Participant" size="55" required=""><br><br>
+
+					<label>Name of College:&emsp;&emsp;&emsp;&nbsp; </label>
+					<input type="text" name="College" size="55" required=""><br><br>
+
+					<label>Branch:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; </label>
+					<input type="text" name="Branch" size="55" required=""><br><br>
+
+					<label style="margin-left:-160px; "> Occupation:
+					&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+					<select>
+						<option>Student</option>
+						<option>Faculty</option>
+						<option>Professional</option>
+						<option>Company / Firm Representatives</option>
+					</select><br><br>
+
+					<label>Email:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;</label>
+					<input type="Email" name="" required="" size="55" placeholder="JohnDoe@gmail.com"><br><br>
+
+					<label>Mobile No.:&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+					<input type="tel" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required="" size="55"><br><br>
+
+					<label>Gender:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+					Female: <input type="radio" name=" " checked="">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Male <input type="radio" name="Gender"><br><br>
+
+					<center><button type="submit">Register Now!</button></center>
+
+				</center>
+			</fieldset>
+	</form>
+
+</body>
+</html>

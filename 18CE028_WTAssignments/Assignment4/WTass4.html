@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>18CE028 Meher Gulabsinghani</title>
+	<style>
+		body{
+			margin-top: 100px;
+			margin-left: 550px;
+			margin-right: 550px;
+			background: url("bg.jpg") no-repeat center center fixed;
+		      -webkit-background-size:cover;
+		      background-size: cover;
+		}
+		label{
+			font-weight: bold;
+		}
+		legend{
+			border-color: #565051;
+			font-size: 20px;
+			margin: auto;
+		}
+		button{
+			background-color: #87afc7;
+			border:none;
+			color: white;
+			padding: 13px 30px;
+			text-align: center;
+			display: inline-block;
+			font-size: 17px;
+
+		}	
+	</style>
+	
+</head>
+<body>
+	<form action="/action_page.php">
+		<fieldset>
+			<legend><center>Registeration Form</center></legend><br>
+			<label>First Name: </label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+			<label>Last Name:</label><br>
+		 	<input type="text" name="Name" required onblur="Capital()">&emsp;&emsp;&emsp;
+		 	<input type="text" name="LName" required><br><br>
+		 	<label>Email:</label><br>
+		 	<input type="Email" name="Email" placeholder="JohnDoe@xyz.com" size="53" required><br><br>
+		 	<label>Password: </label><br>
+		 	<input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required size="53"><br><br>
+		 	<label>Date-of-Birthday:</label><br>
+		 	<input type="date" name="DoB" min="20/03/2002"><br><br>
+		 	<label>Gender:</label><br>
+		 	Female <input type="radio" name="Gender" checked="">&emsp;
+		 	Male <input type="radio" name="Gender"><br><br><br>
+		 	<center><button type="submit">Register Now!</button></center>
+		 			
+		<script>
+			function Capital() {
+  			var x = document.getElementById("Name");
+  			x.value = x.value.toUpperCase();
+			}
+		
+		</script>
+	</fieldset>
+</form>
+
+</body>
+</html>

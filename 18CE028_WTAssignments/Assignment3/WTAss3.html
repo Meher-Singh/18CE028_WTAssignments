@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>18CE028 Meher Gulabsinghani </title>
+	<style>
+		body{
+		      background: url("bg.jpg") no-repeat center center fixed;
+		      -webkit-background-size:cover;
+		      background-size: cover;
+  		}
+  		.img{
+  			width: 240px;
+  			height: 240px;
+  		}
+	</style>
+
+	<script type="text/javascript">
+		function DisplayMessage(){
+			alert("Welcome to my page!");
+		}
+		function Normal(x){
+			x.style.height="240px";
+			x.style.width="240px";
+		}
+		function Enlarge(x){
+			x.style.width= "300px";
+			x.style.height="300px";
+		}
+		
+		
+	</script>
+	
+</head>
+<body onload="DisplayMessage()">
+	<center><h1>Meher Gulabsinghani</h1></center><br>
+	<table  width="60%" align="center">
+		<tr>
+			<td>
+				<img src="pro.jpg" alt="Profile Picture" height="500" width="300">
+			</td> 
+			<td>
+				<p align="left" style="margin-top: 10px; margin-left: 15px">
+					I Meher Gulabsinghani, am a student of Charusat University. I am currently pursing Computer Engineering from Chandubhai S. Patel Inititute of Technology. <br>
+					I am born and brought up in Ahmedabad and completed my schooling from Udgam School for Children.<br>
+					Along with studies I have a few passion which are: 
+					<ul>
+						<li>Figure and Artistic Skating </li>
+						<li>Horse Riding.</li>
+					</ul>
+					<p>I am also an avid reader, Dan Brown being my absolute favourite author and <br> below is one of my favourite quote. <b><i>Hover mouse to enlarge the size of the image.</i></b> </p>
+					<center><img class="img" src="https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/e35/88135080_215182302894884_3976263432882215119_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=108&_nc_ohc=UsI4YzFLoSsAX-2caVM&oh=580f91beb356b99e1e29232045e30e8a&oe=5EA8573C" onmouseout="Normal(this)" onmouseover="Enlarge(this)" alt="Be the sun, show them how to dance in the rain."></center>
+				</p>
+				
+			</td>
+	</table>
+
+</body>
+</html>

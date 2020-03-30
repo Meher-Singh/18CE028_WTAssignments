@@ -1,0 +1,32 @@
+      .body{
+        background-color: #cfecec;
+        align-items: center;
+      }
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: #80bba7;
+        height: 110px;
+        color: white;
+        font-family: serif;
+        font-style: italic;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 10px;
+      }  
+      .table{
+        width: 50%;
+        font-size: 17px;
+      }
+      .image{
+         width: 200px;
+         height: 300px;
+      }
+      .font{
+        font-size: 17px;
+        color: #565051;
+      }
+      
+
